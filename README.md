@@ -30,5 +30,5 @@ Mutational landscape depiction and signatures extraction were both applied in th
 # drug sensitivity
 The ‘oncoPredict’ package was used to build the drug sensitivity prediction procedure. The imputations were performed based on the expression matrix of a training set with known drug treatment information against the Genomics of Drug Sensitivity in Cancer (GDSC) database. The drug sensitivity scores of the samples were calculated using Ridge regression.
 
-# MNF
+# NMF
 The expression (Matrix A) was factorized into 2 nonnegative matrices W and H (i.e., A≈WH). Repeated factorization of matrix A was performed and its outputs were aggregated to obtain consensus clustering of samples. The optimal number of clusters was selected according to cophenetic, dispersion, and silhouette coefficients. The ‘NMF’ package with the brunet algorithm and 10 nruns algorithm was used to perform the consensus clustering.
